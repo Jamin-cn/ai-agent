@@ -1,6 +1,6 @@
 package com.jamin.aiagent.agent;
 
-import com.jamin.aiagent.agent.advisor.MyLoggerAdvisor;
+import com.jamin.aiagent.advisor.MyLoggerAdvisor;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.tool.ToolCallback;

@@ -1,4 +1,4 @@
-package com.jamin.aiagent.agent.advisor;
+package com.jamin.aiagent.advisor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClientMessageAggregator;
