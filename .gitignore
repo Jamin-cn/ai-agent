@@ -2,6 +2,7 @@
 ### CUSTOM ###
 application-local.yml
 tmp
+application-prod.yml
 
 target/
 .mvn/wrapper/maven-wrapper.jar

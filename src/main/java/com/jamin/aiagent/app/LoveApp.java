@@ -10,7 +10,6 @@ import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.MessageWindowChatMemory;
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.model.ChatResponse;
-import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Flux;
@@ -103,7 +102,7 @@ public class LoveApp {
 /*    @Autowired
     private SyncMcpToolCallbackProvider toolCallbackProvider;*/
 
-    @Resource
+/*    @Resource
     private ToolCallbackProvider mcpAsyncToolCallbacks;
 
     public String doChatWithMcp(String message, String chatId) {
@@ -117,6 +116,6 @@ public class LoveApp {
         String content = response.getResult().getOutput().getText();
         log.info("content: {}", content);
         return content;
-    }
+    }*/
 }
 
