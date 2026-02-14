@@ -1,8 +1,12 @@
 spring:
   application:
     name: ai-agent
-  profiles:
-    active: local
+  ai:
+    dashscope:
+      api-key: ${DASHSCOPE_API_KEY}  # ✅ 从环境变量读取
+      chat:
+        options:
+          model: qwen-flash-2025-07-28
 server:
   port: 8123
   servlet:
